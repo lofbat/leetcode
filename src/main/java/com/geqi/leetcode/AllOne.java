@@ -71,10 +71,12 @@ public class AllOne {
     /** Returns one of the keys with maximal value. */
     public String getMaxKey() {
 
+        return null;
     }
 
     /** Returns one of the keys with Minimal value. */
     public String getMinKey() {
 
+        return null;
     }
 }
