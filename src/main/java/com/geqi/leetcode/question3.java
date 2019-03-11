@@ -14,29 +14,26 @@ import java.util.Map;
 public class question3 {
 
     public int lengthOfLongestSubstring(String s) {
-        if(s.length()<2){
-            return s.length();
+        int length=s.length();
+        if(length<2){
+            return length;
         }
         int ans=0;
         int flag=0;
-        Map<Character,Integer> map=new HashMap(s.length());
-        for (int i=0,length=s.length();i<length;i++){
+        Map<Character,Integer> map=new HashMap(length);
+        for (int i=0;i<length;i++){
             Character c=s.charAt(i);
             Integer old = map.get(c);
             if( old == null || old<flag){
                 map.put(c,i);
-                int t=i-flag;
+                int t=i-flag+1;
                 ans=ans>t?ans:t;
-                System.out.println(ans);
             }else{
                 map.put(c,i);
-                flag=old;
-                int t=i-flag;
+                flag=old+1;
+                int t=i-flag+1;
                 ans=ans>t?ans:t;
-                System.out.println(ans);
             }
-            System.out.println(map);
-
         }
         return ans;
     }

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57c38507-fb7d-4fca-a4f9-1178b75f83b8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/geqi/leetcode/question3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geqi/leetcode/question3.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -42,8 +41,8 @@
       <file leaf-file-name="question3.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/geqi/leetcode/question3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+            <state relative-caret-position="370">
+              <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -299,7 +298,7 @@
       <option name="presentableId" value="Default" />
       <updated>1547191142845</updated>
       <workItem from="1547191147222" duration="535000" />
-      <workItem from="1552291236926" duration="1458000" />
+      <workItem from="1552291236926" duration="1675000" />
     </task>
     <task id="LOCAL-00001" summary="add 575">
       <created>1547191303764</created>
@@ -337,12 +336,16 @@
     <history-entry file="question3Test_testLengthOfLongestSubstring - 2019.03.11 at 16h 27m 58s.xml">
       <configuration name="question3Test.testLengthOfLongestSubstring" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="question3Test_testLengthOfLongestSubstring - 2019.03.11 at 16h 37m 42s.xml">
+      <configuration name="question3Test.testLengthOfLongestSubstring" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1993000" />
+    <option name="totallyTimeSpent" value="2210000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1698" y="-138" width="1405" height="865" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="PlantUML" order="3" />
       <window_info anchor="right" id="Palette" order="3" />
@@ -352,9 +355,9 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3292011" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3292011" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.30027547" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.30027547" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3060313" />
       <window_info anchor="right" id="Database" order="3" />
@@ -439,8 +442,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/geqi/leetcode/question3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+        <state relative-caret-position="370">
+          <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
