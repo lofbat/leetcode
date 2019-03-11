@@ -14,8 +14,8 @@ import java.util.Map;
 public class question3 {
 
     public int lengthOfLongestSubstring(String s) {
-        if(s.isEmpty()){
-            return 0;
+        if(s.length()<2){
+            return s.length();
         }
         int ans=0;
         int flag=0;
