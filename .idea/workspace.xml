@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57c38507-fb7d-4fca-a4f9-1178b75f83b8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geqi/leetcode/question3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/geqi/leetcode/question3Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geqi/leetcode/question3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geqi/leetcode/question3.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,8 +42,8 @@
       <file leaf-file-name="question3.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/geqi/leetcode/question3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+            <state relative-caret-position="294">
+              <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -299,7 +299,7 @@
       <option name="presentableId" value="Default" />
       <updated>1547191142845</updated>
       <workItem from="1547191147222" duration="535000" />
-      <workItem from="1552291236926" duration="1183000" />
+      <workItem from="1552291236926" duration="1458000" />
     </task>
     <task id="LOCAL-00001" summary="add 575">
       <created>1547191303764</created>
@@ -334,13 +334,15 @@
     <history-entry file="question3Test_testLengthOfLongestSubstring - 2019.03.11 at 16h 25m 37s.xml">
       <configuration name="question3Test.testLengthOfLongestSubstring" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="question3Test_testLengthOfLongestSubstring - 2019.03.11 at 16h 27m 58s.xml">
+      <configuration name="question3Test.testLengthOfLongestSubstring" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1718000" />
+    <option name="totallyTimeSpent" value="1993000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1698" y="-138" width="1405" height="865" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="PlantUML" order="3" />
       <window_info anchor="right" id="Palette" order="3" />
@@ -437,8 +439,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/geqi/leetcode/question3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+        <state relative-caret-position="294">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

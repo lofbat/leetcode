@@ -14,6 +14,9 @@ import java.util.Map;
 public class question3 {
 
     public int lengthOfLongestSubstring(String s) {
+        if(s.isEmpty()){
+            return 0;
+        }
         int ans=0;
         int flag=0;
         Map<Character,Integer> map=new HashMap(s.length());
@@ -22,21 +25,13 @@ public class question3 {
             Integer old = map.get(c);
             if( old == null || old<flag){
                 map.put(c,i);
-                ans=ans>map.size()?ans:map.size();
+                int t=i-flag;
+                ans=ans>t?ans:t;
                 System.out.println(ans);
             }else{
                 map.put(c,i);
                 flag=old;
-                Iterator<Map.Entry<Character, Integer>> ite = map.entrySet().iterator();
-                int t=0;
-                while(ite.hasNext()){
-                    Map.Entry<Character, Integer> entry=ite.next();
-                    if(entry.getValue()<flag){
-                        ite.remove();
-                    }else {
-                        t++;
-                    }
-                }
+                int t=i-flag;
                 ans=ans>t?ans:t;
                 System.out.println(ans);
             }
